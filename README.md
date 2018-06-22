@@ -9,4 +9,4 @@ the problem is to recreate the tables with the correct number of replicas and lo
 When you manually add replicas, kudu will not replicate replicas if they are partially lost, 
 because it will be guided by the number of replicas that were assigned to the table at creation.
 
-Key question: "how to add a kudu table?"
+Key question: "how to add replicas to kudu table?"
